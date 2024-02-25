@@ -1,9 +1,10 @@
-import { Sortable } from './sortable.interface';
+import { Sorter } from './Sorter';
 
-export class NumbersCollection implements Sortable {
+export class NumbersCollection extends Sorter {
   private readonly data: number[];
 
   constructor(data: number[]) {
+    super();
     this.data = [...data];
   }
 
