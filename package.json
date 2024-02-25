@@ -1,16 +1,17 @@
 {
   "dependencies": {
     "@faker-js/faker": "^8.2.0",
-    "axios": "^0.27.2",
-    "nodemon": "^3.0.1",
-    "prettier": "^3.0.3"
+    "axios": "^1.6.7"
   },
   "scripts": {
-    "start": "npx parcel"
+    "start": "tsc && dist/app.js",
+    "parcel": "npx parcel"
   },
   "devDependencies": {
     "@types/google.maps": "^3.54.3",
+    "@types/node": "^20.11.20",
     "buffer": "^6.0.3",
-    "prettier": "^2.3.1"
+    "nodemon": "^3.1.0",
+    "prettier": "^2.8.8"
   }
 }
