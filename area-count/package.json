@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "debug": "tsc && node --inspect-brk -r ts-node/register ./src/index.ts"
+  }
+}
